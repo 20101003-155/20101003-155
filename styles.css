@@ -1,0 +1,67 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0077cc;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.introduction {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+h3 {
+    color: chocolate;
+}
+h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 8px 8px;
+}
